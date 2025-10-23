@@ -1,0 +1,18 @@
+# Ignore virtual environment
+venv*/
+ENV*/
+*.venv/
+
+# Ignore large model files
+*.h5
+*.keras
+*.tflite
+*.pkl
+*.dll
+*.pyd
+
+# Ignore other unnecessary stuff
+__pycache__/
+*.log
+*.zip
+*.npy
